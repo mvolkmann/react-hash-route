@@ -1,0 +1,19 @@
+{
+  "name": "react-hash-route",
+  "version": "1.0.0",
+  "description": "a much simpler way to support routing in React applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React",
+    "routing",
+    "hash"
+  ],
+  "author": "R. Mark Volkmann <r.mark.volkmann@gmail.com> (http://ociweb.com/mark)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
