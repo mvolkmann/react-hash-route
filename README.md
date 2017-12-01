@@ -23,11 +23,11 @@ routeSetup(render);
 ```
 
 Suppose your app has the following requirements:
-* There pages to login, edit the user profile, and place an order.
+* There are pages to login, edit user profile, and place an order.
 * A common "header" should be rendered at the top of every page.
 * If an unsupported URL hash is used, the app should route to the login page.
 
-In the source file that defines the `App` component (
+In the source file that defines the `App` component
 add something like the following:
 
 ```js
@@ -59,7 +59,7 @@ Add something like the following in `header.js`.
 
 ```js
 import React, {Component} from 'react';
-import {getHash, route} from '../util/route';
+import {route} from '../util/route';
 
 class Header extends Component {
 
@@ -81,7 +81,7 @@ class Header extends Component {
 
 Suppose on the order page
 we want to verify that the user is logged in
-and reroute to the login page they have not.
+and reroute to the login page if they have not.
 Add something like the following in the
 `render` method of the `Order` component.
 
@@ -89,8 +89,8 @@ Add something like the following in the
 if (!authenticated) return route('login');
 ```
 
-There are several approaches that can be used
-to make data available to a route.
+There are several approaches that can be used to
+make data available to component after a route change.
 Probably the best is to put data in Redux state
 that other components can access.
 Another approach is to use what this package refers to as "hash parameters".
@@ -107,4 +107,4 @@ const [adjustment, amount] = getHashParameters();
 ```
 
 That's everything to you need to know to use react-hash-route.
-Keep on coding simply!
+Code simply!
