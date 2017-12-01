@@ -38,9 +38,9 @@ import Order from './order';
 import Profile from './profile';
 
 const componentMap = {
-  'login': <Login />,
-  'profile': <Profile />,
-  'order': <Order />
+  login: <Login />,
+  profile: <Profile />,
+  order: <Order />
 };
 
 const App = () => (
