@@ -108,3 +108,6 @@ const [adjustment, amount] = getHashParameters();
 
 That's everything to you need to know to use react-hash-route.
 Code simply!
+
+If you like this, also check out
+https://www.npmjs.com/package/redux-easy.
