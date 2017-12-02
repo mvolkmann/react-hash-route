@@ -104,8 +104,8 @@ if (!authenticated) return route('login');
 There are several approaches that can be used to
 make data available to component after a route change.
 Probably the best is to put data in Redux state
-that other components can access.
-Another approach is to use what this package refers to as "hash parameters".
+and have other components can access it from there.
+Another approach is to use what this library refers to as "hash parameters".
 These are just values are appended to the route name and begin with a slash.
 For example, `route('order/discount/20')`.
 Inside the `Order` component, these "hash parameters"
