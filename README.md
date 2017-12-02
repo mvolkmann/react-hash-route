@@ -7,6 +7,18 @@ but may also be useful with other frameworks.
 This is much simpler than using react-router and
 does not use JSX-based syntax for route configuration.
 
+## Benfits
+
+* This library is much simpler to learn and use that react-router,
+  yet it does everything I need for routing.
+* Routing is a kind of configuration that is different from UI markup.
+  Using JSX for this feels wrong, so this library doesn't do that.
+* This library makes it very easy to change the route inside a component method.
+  It just requires a call to the `route` function , passing it a hash name.
+* Nothing extra is required to support remembering the route
+  if the user refreshes the browser.
+  Getting this to work with react-router seems tedious.
+
 ## Setup
 
 In the topmost source file, likely named `index.js`,
