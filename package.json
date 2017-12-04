@@ -1,9 +1,10 @@
 {
   "name": "react-hash-route",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a much simpler way to support routing in React applications",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "prepublish": "babel src -d lib",
     "test": "jest"
   },
   "keywords": [
@@ -14,6 +15,8 @@
   "author": "R. Mark Volkmann <r.mark.volkmann@gmail.com> (http://mvolkmann.github.io/)",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "jest": "^21.2.1"
   }
 }
