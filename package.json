@@ -1,11 +1,15 @@
 {
   "name": "react-hash-route",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "a much simpler way to support routing in React applications",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src -d lib",
     "test": "jest src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvolkmann/react-hash-route.git"
   },
   "keywords": [
     "React",
