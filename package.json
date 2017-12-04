@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src -d lib",
-    "test": "jest"
+    "test": "jest src/*.js"
   },
   "keywords": [
     "React",
