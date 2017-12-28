@@ -7,7 +7,7 @@ but may also be useful with other frameworks.
 This is much simpler than using react-router and
 does not use JSX-based syntax for route configuration.
 
-## Benfits
+## Benefits
 
 * This library is much simpler to learn and use than react-router,
   yet it does everything I need for routing.
