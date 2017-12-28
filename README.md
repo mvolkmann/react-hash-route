@@ -9,7 +9,7 @@ does not use JSX-based syntax for route configuration.
 
 ## Benfits
 
-* This library is much simpler to learn and use that react-router,
+* This library is much simpler to learn and use than react-router,
   yet it does everything I need for routing.
 * Routing is a kind of configuration that is different from UI markup.
   Using JSX for this feels wrong, so this library doesn't do that.
@@ -28,7 +28,7 @@ add the following which assumes the topmost component is `App`:
 import {routeSetup} from 'react-hash-route';
 
 function render() {
-  ReactDOM.render(<App />, getElementById('root'));
+  ReactDOM.render(<App />, document.getElementById('root'));
 }
 
 routeSetup(render);
