@@ -1,6 +1,6 @@
 {
   "name": "react-hash-route",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "a much simpler way to support routing in React applications",
   "main": "lib/index.js",
   "scripts": {

@@ -71,7 +71,7 @@ Add something like the following in `header.js`.
 
 ```js
 import React, {Component} from 'react';
-import {route} from '../util/route';
+import {route} from 'react-hash-route';
 
 class Header extends Component {
 
