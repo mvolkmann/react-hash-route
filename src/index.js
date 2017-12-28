@@ -28,6 +28,7 @@ function route(hash) {
 
 function routeSetup(render) {
   window.addEventListener('hashchange', render);
+  render();
 }
 
 module.exports = {getHash, getHashParameters, route, routeSetup};
